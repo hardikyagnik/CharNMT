@@ -1,0 +1,129 @@
+================================================================================
+                                      Opts                                      
+--------------------------------------------------------------------------------
+                                nepochs: 100                                    
+                             batch_size: 16                                     
+                          learning_rate: 0.01                                   
+                               lr_decay: 0.99                                   
+                            hidden_size: 10                                     
+                  teacher_forcing_ratio: 0.5                                    
+                         checkpoint_dir: checkpoints/attn/py3                   
+                           no_attention: 0                                      
+                                   cuda: 1                                      
+================================================================================
+================================================================================
+                                   Data Stats                                   
+--------------------------------------------------------------------------------
+('laughter', 'aughterlay')
+('example', 'exampleway')
+('measuring', 'easuringmay')
+('assigned', 'assignedway')
+('discontents', 'iscontentsday')
+Num unique word pairs: 6387
+Vocabulary: dict_keys(['-', 'a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z', 'SOS', 'EOS'])
+Vocab size: 29
+================================================================================
+Moved models to GPU!
+Epoch:   0 | Train loss: 2.546 | Val loss: 2.203 | Gen: antay ayay oneneay asayay orray
+Epoch:   1 | Train loss: 2.296 | Val loss: 2.109 | Gen: etedday ay onooononananyaayaaya atsayaayaayaay orrray
+Epoch:   2 | Train loss: 2.146 | Val loss: 1.958 | Gen: eddday aray onionioniionniingata esssaayway otottatay
+Epoch:   3 | Train loss: 2.105 | Val loss: 1.856 | Gen: edday ay oninininingananayaay essaaaay ongatttay
+Epoch:   4 | Train loss: 2.021 | Val loss: 1.807 | Gen: etdway atay ininininitay isway ontattay
+Epoch:   5 | Train loss: 2.004 | Val loss: 1.774 | Gen: attway atayay ontingtingay isway ontattayyyy
+Epoch:   6 | Train loss: 1.949 | Val loss: 1.763 | Gen: etdday atayay ontinngttayy issay ontttttttyy
+Epoch:   7 | Train loss: 1.920 | Val loss: 1.762 | Gen: ettttay attaaaay onginginggionggaygyy issway ongggtaggayyy
+Epoch:   8 | Train loss: 1.859 | Val loss: 1.691 | Gen: ettay ataaaay iniiniiingayay issay ontaytayay
+Epoch:   9 | Train loss: 1.826 | Val loss: 1.733 | Gen: etetay ittay ingtongtoayyyay isway ongttaygway
+Epoch:  10 | Train loss: 1.784 | Val loss: 1.650 | Gen: atway ittway ininiinionayy isway ontiingway
+Epoch:  11 | Train loss: 1.755 | Val loss: 1.686 | Gen: attaay itaway ininiinionayyyyyy isway oniitngay
+Epoch:  12 | Train loss: 1.688 | Val loss: 1.529 | Gen: ittay itaway innintinionnayy isway ontingway
+Epoch:  13 | Train loss: 1.595 | Val loss: 1.603 | Gen: ishay iatay ininioninyay isaay ininingay
+Epoch:  14 | Train loss: 1.538 | Val loss: 1.553 | Gen: itthay iataay intiiniingway isaay iniingway
+Epoch:  15 | Train loss: 1.455 | Val loss: 1.443 | Gen: itttay ianway onnininininnyyayyy issay oniningny
+Epoch:  16 | Train loss: 1.409 | Val loss: 1.525 | Gen: ittay airay oniiininyy isway oningway
+Epoch:  17 | Train loss: 1.312 | Val loss: 1.461 | Gen: ittay airaay onnintinninnyyyyyyyy issay ornnninngwy
+Epoch:  18 | Train loss: 1.221 | Val loss: 1.368 | Gen: etthay aadtay onntitinnonnony isway ornningway
+Epoch:  19 | Train loss: 1.190 | Val loss: 1.737 | Gen: etay aitway onniginiininnyny isway onrinngyway
+Epoch:  20 | Train loss: 1.168 | Val loss: 1.181 | Gen: etthay aaraay ondaiininnyyay isway onringway
+Epoch:  21 | Train loss: 1.045 | Val loss: 1.253 | Gen: etay aiday ondaiinnnnnyny iseay ornngway
+Epoch:  22 | Train loss: 1.036 | Val loss: 1.196 | Gen: etay aiday ondaninnnngynay isway okringay
+Epoch:  23 | Train loss: 0.973 | Val loss: 1.485 | Gen: ethay aiday onltininngy isway orningway
+Epoch:  24 | Train loss: 0.966 | Val loss: 1.140 | Gen: etthay airaaay onditininnngygay isway orninggway
+Epoch:  25 | Train loss: 0.923 | Val loss: 1.039 | Gen: ethay aiday onditinonngyway isway orkingway
+Epoch:  26 | Train loss: 0.816 | Val loss: 0.877 | Gen: ethay aieway onditioninggay isway orningway
+Epoch:  27 | Train loss: 0.785 | Val loss: 1.028 | Gen: ethay aioway onditininnngnynay isway orningway
+Epoch:  28 | Train loss: 0.786 | Val loss: 0.944 | Gen: ethay aidaay onditinnnngngway isway orningway
+Epoch:  29 | Train loss: 0.696 | Val loss: 0.850 | Gen: ethhay aiway onditinonngysy issaay orningway
+Epoch:  30 | Train loss: 0.658 | Val loss: 0.730 | Gen: etay aiway onditionnnggway issaay orkingway
+Epoch:  31 | Train loss: 0.674 | Val loss: 0.797 | Gen: ethay aiwway onditionnngcay isway orningway
+Epoch:  32 | Train loss: 0.700 | Val loss: 0.836 | Gen: ethay iidway onditioningycy isway orningway
+Epoch:  33 | Train loss: 0.591 | Val loss: 0.627 | Gen: ethay aiwway onditinonngcay isway orkingway
+Epoch:  34 | Train loss: 0.508 | Val loss: 0.933 | Gen: ethay airway onditioningggy isway ornynngway
+Epoch:  35 | Train loss: 0.483 | Val loss: 0.742 | Gen: ethay aiwway onditioningygway isway orkingway
+Epoch:  36 | Train loss: 0.506 | Val loss: 0.929 | Gen: ethay airway ondgationnngway isway orkinngway
+Epoch:  37 | Train loss: 0.525 | Val loss: 1.196 | Gen: ethay airway ondininnnggyway isway orkingway
+Epoch:  38 | Train loss: 0.482 | Val loss: 0.584 | Gen: ethay iiway onditioningcay isway orkingway
+Epoch:  39 | Train loss: 0.412 | Val loss: 0.606 | Gen: ethay iiway onditioningycay isway orkingway
+Epoch:  40 | Train loss: 0.410 | Val loss: 0.620 | Gen: ethay airway onditioningyay isway orkingway
+Epoch:  41 | Train loss: 0.432 | Val loss: 0.986 | Gen: ethay airway onditionngy isway orkmgway
+Epoch:  42 | Train loss: 0.500 | Val loss: 1.065 | Gen: ethay airway ondgitionnngayyy isway orkkingway
+Epoch:  43 | Train loss: 0.343 | Val loss: 0.697 | Gen: ethay airway onditinngngyway isway orgingway
+Epoch:  44 | Train loss: 0.423 | Val loss: 0.455 | Gen: ethay airway ondganoningcay isway orkingway
+Epoch:  45 | Train loss: 0.390 | Val loss: 0.443 | Gen: ethay airway onditioningcay isway orkingway
+Epoch:  46 | Train loss: 0.318 | Val loss: 0.463 | Gen: ethay airway onditioningcay isway orkingway
+Epoch:  47 | Train loss: 0.450 | Val loss: 0.406 | Gen: ethay airway onditionnigcay isway orkingway
+Epoch:  48 | Train loss: 0.302 | Val loss: 1.028 | Gen: ethay airway ondinaioningcay isway orkingway
+Epoch:  49 | Train loss: 0.428 | Val loss: 0.466 | Gen: ethay airway onditioninnncay isway orkingway
+Epoch:  50 | Train loss: 0.240 | Val loss: 0.353 | Gen: ethay airway onditioningcay isway orkingway
+Epoch:  51 | Train loss: 0.315 | Val loss: 0.498 | Gen: ethay airway onditionincay isway orkingway
+Epoch:  52 | Train loss: 0.329 | Val loss: 0.839 | Gen: ethay iirway ondisioningyyway isway orkimgway
+Epoch:  53 | Train loss: 0.298 | Val loss: 0.402 | Gen: ethay airway onditioningcay isway orkingway
+Epoch:  54 | Train loss: 0.240 | Val loss: 0.343 | Gen: ethay airway onditioningcay isway orkingway
+Epoch:  55 | Train loss: 0.294 | Val loss: 0.466 | Gen: ethay airway ondinioningcay isway orkingway
+Epoch:  56 | Train loss: 0.305 | Val loss: 1.110 | Gen: ethay airway ondinoniggway isway orkingway
+Epoch:  57 | Train loss: 0.546 | Val loss: 1.660 | Gen: ethay airway ondiitioninggcay isway orkyingway
+Epoch:  58 | Train loss: 0.262 | Val loss: 0.370 | Gen: ethay airway onditioningcay isway orkingway
+Epoch:  59 | Train loss: 0.252 | Val loss: 0.370 | Gen: ethay airway onditionincay isway orkingway
+Epoch:  60 | Train loss: 0.347 | Val loss: 0.895 | Gen: etay airway ondgitionnngyyy isway orkyingway
+Epoch:  61 | Train loss: 0.310 | Val loss: 0.400 | Gen: ethay airway onditioningcay isway orkingway
+Epoch:  62 | Train loss: 0.257 | Val loss: 0.339 | Gen: ethay airway onditioningcay isway orkingway
+Epoch:  63 | Train loss: 0.303 | Val loss: 0.306 | Gen: ethay airway onditioningcay isway orkingway
+Epoch:  64 | Train loss: 0.244 | Val loss: 0.273 | Gen: ethay airway onditioningcay isway orkingway
+Epoch:  65 | Train loss: 0.185 | Val loss: 0.340 | Gen: ethay airway onditioningcay isway orkymgway
+Epoch:  66 | Train loss: 0.250 | Val loss: 0.320 | Gen: ethay airway onditioningcay isway orkingway
+Epoch:  67 | Train loss: 0.344 | Val loss: 0.292 | Gen: ethay airway onditioningcay isway orkingway
+Epoch:  68 | Train loss: 0.216 | Val loss: 0.388 | Gen: ethay airway onditioninggcay isway orkingway
+Epoch:  69 | Train loss: 0.219 | Val loss: 0.255 | Gen: ethay airway onditioningcay isway orkingway
+Epoch:  70 | Train loss: 0.332 | Val loss: 0.997 | Gen: ethay airway ondgitionynngwayy isway orkyingway
+Epoch:  71 | Train loss: 0.237 | Val loss: 0.269 | Gen: ethay airway onditionningcay isway orkingway
+Epoch:  72 | Train loss: 0.199 | Val loss: 0.320 | Gen: ethay airway onditioningcay isway orkingway
+Epoch:  73 | Train loss: 0.185 | Val loss: 0.714 | Gen: ethay airway onditiioningcay isway orkingway
+Epoch:  74 | Train loss: 0.402 | Val loss: 0.260 | Gen: ethay airway onditioningcay isway orkingway
+Epoch:  75 | Train loss: 0.204 | Val loss: 0.266 | Gen: ethay airway onditioningcay isway orkingway
+Epoch:  76 | Train loss: 0.167 | Val loss: 0.259 | Gen: ethay airway onditioningcay isway orkingway
+Epoch:  77 | Train loss: 0.173 | Val loss: 0.423 | Gen: ethay airway onditioningcay isway orkingway
+Epoch:  78 | Train loss: 0.237 | Val loss: 0.280 | Gen: ethay airway onditioniingcay isway orkingway
+Epoch:  79 | Train loss: 0.157 | Val loss: 0.380 | Gen: ethay airway ondinaioningcay isway orkingway
+Epoch:  80 | Train loss: 0.227 | Val loss: 0.305 | Gen: ethay airway onditioninggcay isway orkingway
+Epoch:  81 | Train loss: 0.149 | Val loss: 0.449 | Gen: ethay airway onditaioningcay isway orkingway
+Epoch:  82 | Train loss: 0.163 | Val loss: 0.281 | Gen: ethay airway onditioningcay isway orkingway
+Epoch:  83 | Train loss: 0.316 | Val loss: 0.413 | Gen: etaay airway onditioninggway isway orkingway
+Epoch:  84 | Train loss: 0.180 | Val loss: 0.283 | Gen: ethay airway onditioningcay isway orkingway
+Epoch:  85 | Train loss: 0.197 | Val loss: 0.321 | Gen: ehhay airway onditioniggcay isway orkingway
+Epoch:  86 | Train loss: 0.168 | Val loss: 0.255 | Gen: ethay airway onditioningcay isway orkingway
+Epoch:  87 | Train loss: 0.162 | Val loss: 0.609 | Gen: ethay airway ondiniioningcay isway orkimgway
+Epoch:  88 | Train loss: 0.264 | Val loss: 0.392 | Gen: ethay airway onditioningcay isway orkingway
+Epoch:  89 | Train loss: 0.180 | Val loss: 0.211 | Gen: ethay airway onditioningcay isway orkingway
+Epoch:  90 | Train loss: 0.146 | Val loss: 0.242 | Gen: ethay airway onditioningcay isway orkingway
+Epoch:  91 | Train loss: 0.179 | Val loss: 0.263 | Gen: ewhay airway onditioningcay isway orkingway
+Epoch:  92 | Train loss: 0.143 | Val loss: 0.246 | Gen: ethay airway onditioningcay isway orkingway
+Epoch:  93 | Train loss: 0.147 | Val loss: 0.350 | Gen: ethay airway onditionningcay isway orkingway
+Epoch:  94 | Train loss: 0.265 | Val loss: 0.416 | Gen: eway airway ondlitioningcay isway orkingway
+Epoch:  95 | Train loss: 0.168 | Val loss: 0.280 | Gen: ewhay airway onditioningcay isway orkingway
+Epoch:  96 | Train loss: 0.148 | Val loss: 0.241 | Gen: ethay airway onditioningcay isway orkingway
+Epoch:  97 | Train loss: 0.186 | Val loss: 0.248 | Gen: ewhay airway onditioningcay isway orkingway
+Epoch:  98 | Train loss: 0.129 | Val loss: 0.197 | Gen: ethay airway onditioningcay isway orkingway
+Epoch:  99 | Train loss: 0.156 | Val loss: 0.204 | Gen: ethay airway onditioningcay isway orkingway
+
+Evaluation on 20% Test Data
+Test loss 0.22261300683021545
